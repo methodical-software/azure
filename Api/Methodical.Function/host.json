@@ -1,0 +1,22 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "Values": {
+    "MethodicalDBConnection": "data source=methodical.database.windows.net;persist security info=True;initial catalog=methodical;user id= user-dd6bbebd-5005-4a41-a100-47fe08221075; password =pwd-b32c3ace-7b7d-4187-a1f6-84805eeeced4;"
+  },
+  "ConnectionStrings": {
+    "dbEntities": "metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string='data source=methodical.database.windows.net;persist security info=True;initial catalog=methodical;user id= user-dd6bbebd-5005-4a41-a100-47fe08221075; password =pwd-b32c3ace-7b7d-4187-a1f6-84805eeeced4;MultipleActiveResultSets=True;App=EntityFramework'",
+    "ProviderName": "System.Data.EntityClient"
+  },
+
+  "appSettings": {
+    "MethodicalDBConnection": "data source=methodical.database.windows.net;persist security info=True;initial catalog=methodical;user id= user-dd6bbebd-5005-4a41-a100-47fe08221075; password =pwd-b32c3ace-7b7d-4187-a1f6-84805eeeced4;"
+  }
+}
